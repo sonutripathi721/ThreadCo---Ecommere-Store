@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - ThreadCo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>ThreadCo</h1>
+      <!-- <p><em>Wear the code.Live the Street.</em></p> -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="productdetail.html">Product Details</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a id="cart">Cart (0)</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="get-in-touch">
+        <h2>Get In Touch</h2>
+        <p>
+          Have a question, a collab idea, or just want to talk street fasion?
+          <strong> We Are Here</strong> Real humans, real replies - within 24
+          hours.
+        </p>
+      </section>
+
+      <div class="contact-layout">
+        <section id="contact-form">
+          <h2>Send Us a Message</h2>
+
+          <form action="">
+            <fieldset>
+              <legend>Your Info</legend>
+
+              <label for="name">Full Name:</label> <br />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <br /><br />
+              <label for="email">Email Address:</label> <br />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <br /><br />
+              <label for="phonenumber">Phone Number (optional):</label> <br />
+              <input
+                type="number"
+                id="phonenumber"
+                placeholder="+917460075470"
+                min="0"
+              />
+              <br />
+              <small>10-digit Indian mobile number</small>
+            </fieldset>
+            <br />
+
+            <fieldset>
+              <legend class="message">Your Message</legend>
+              <label for="subject">Subject:</label><br />
+              <select name="subject" id="subject">
+                <option value="selecttopic">-- Select a Topic--</option>
+                <option value="orderissue">Order Issue</option>
+                <option value="refundreturn">Refund/Return</option>
+                <option value="collaborationpartnership">
+                  Collaboration/Partnership
+                </option>
+                <option value="wholeshaleenquiry">Wholeshale Enquiry</option>
+                <option value="generalquery">General Query</option>
+              </select>
+              <br /><br />
+              <label for="message">Your Message:</label><br />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Tell us what is on your mind..."
+                rows="4"
+                cols="40"
+              ></textarea>
+              <br /><br />
+              <label for="file">Attach a File (optional):</label><br />
+              <input type="file" />
+              <br />
+              <small>Max file size: 5MB. Accepted format: JPG, PNG, PDF</small>
+              <br /><br />
+              <div class="agreement">
+                <input type="checkbox" name="agreement" id="agreement" />
+                <label for="agreement"
+                  >I agree to be contacted by ThreadCo regarding my enquiry. I
+                  have read the <a href="">Privacy Policy</a>
+                </label>
+              </div>
+            </fieldset>
+          </form>
+          <br />
+          <button type="submit">Send Message</button>
+          <button type="reset">Clear Form</button>
+        </section>
+
+        <section class="our-details">
+          <h2>Our Details</h2>
+          <div class="address">
+            <address>
+              <h3>ThreadCo HQ</h3>
+              <p>42, Street Level, Hauz khas village</p>
+              <p>New Delhi - 110016</p>
+              <p>India</p>
+              <br />
+              <a href="">hello&commat;threadco.in</a> <br />
+              <a href="">+91 7460075470</a>
+            </address>
+          </div>
+
+          <br />
+          <div class="store-time">
+            <h3>Store Hours</h3>
+            <table>
+              <tr>
+                <th>Day</th>
+                <th>Hours</th>
+              </tr>
+              <tr>
+                <td>Monday -- Friday</td>
+                <td>10:00 AM -- 7:00 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>11:00 AM -- 5:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td><em>Closed</em></td>
+              </tr>
+            </table>
+
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="">Instagram--@threadco.in</a></li>
+              <li><a href="">Twitter--@threadco</a></li>
+              <li><a href="">Youtube-- ThreadCo</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section>
+        <h2>Common Questions</h2>
+        <p>Quick answers so you don't have to wait for a reply.</p>
+
+        <details>
+          <summary>How long does delivery take?</summary>
+          <p>
+            We ship within <strong>48 hours</strong> of order confirmation.
+            Standard delivery takes <strong>3—5 business days</strong> across
+            India. Express delivery (1—2 days) is available at checkout for
+            select pin codes.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can I return my order?</summary>
+          <p>
+            Yes! We offer <strong>free returns within 7 days</strong> of
+            delivery. The item must be unworn, unwashed, and in its original
+            packaging with all tags attached. Initiate your return from the
+            Orders section of your account.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are your products true to size?</summary>
+          <p>
+            ThreadCo tees and hoodies are <strong>oversized by design</strong>.
+            If you prefer a more fitted look, we recommend sizing down. Check
+            the <a href="">Size Guide</a> on any product page for exact
+            measurements.
+          </p>
+        </details>
+
+        <details>
+          <summary>How do I track my order?</summary>
+          <p>
+            Once your order ships, you will receive a tracking link via SMS and
+            email. You can also track your order by entering your order ID on
+            our <a href="">Order Tracking page</a>.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can I collaborate or submit designs?</summary>
+          <p>
+            Absolutely. ThreadCo works with independent Indian artists on every
+            drop. If you have a design concept or want to collab, reach out via
+            the form above and select
+            <strong>“Collaboration / Partnership”</strong> as the subject. We
+            read every single message.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <h3>&copy;2026-27 ThreadCo.All rights reserved.</h3>
+      <p><em>Wear the code. Live the Street.</em></p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms &amp; Conditions</a></li>
+        </ul>
+      </nav>
+
+      <p>
+        <a href="">Instagram</a> | <a href="">Twitter</a> |
+        <a href="">YouTube</a>
+      </p>
+    </footer>
+  </body>
+</html>
